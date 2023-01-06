@@ -37,11 +37,10 @@ This project requires:
  * Update the `application.yml` file with `ENV` variables storing API keys for [Mapquest API Documentation](https://developer.mapquest.com/documentation/)
  * [Catalog Beer API Documentation](https://catalog.beer/api-docs) (No API Key required)
 ## Deployment 
-  malt-matcher-be is deployed remotely on Heroku. 
-  Base URL: https://malt-matchers-be.herokuapp.com/
+  malt-matcher-be was formerly deployed remotely on Heroku. Due to Heroku no longer being free, the hunt for an alternate hosting site is under way.
 ## Postman Examples 
 
-All requests begin with this base URL: https://malt-matchers-be.herokuapp.com/ and all GraphQL responses respond to POST /graphql requests only. Query information will need to be sent in the body of the request, as shown in the following GIFs.
+All requests began with this base URL: https://malt-matchers-be.herokuapp.com/ and all GraphQL responses respond to POST /graphql requests only. Query information will need to be sent in the body of the request, as shown in the following GIFs.
 ### 1. Request/Response For Nearby Breweries That Have The Beer Style The User Is Searching For
 ![Nearby Breweries](https://user-images.githubusercontent.com/103782984/198139088-55ca1b46-bad0-4dc4-b390-bd2b1f9cb2d0.gif)
 
