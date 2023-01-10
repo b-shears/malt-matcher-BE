@@ -40,7 +40,7 @@ This project requires:
   Interact with our live app here => https://maltmatcher.vercel.app/
 ## Postman Examples 
 
-Before Heroku required payment => all requests began with this base URL: https://malt-matchers-be.herokuapp.com/ and all GraphQL responses respond to POST /graphql requests only. Query information will need to be sent in the body of the request, as shown in the following GIFs.
+All GraphQL responses respond to POST /graphql requests only. Query information will need to be sent in the body of the request, as shown in the following GIFs.
 ### 1. Request/Response For Nearby Breweries That Have The Beer Style The User Is Searching For
 ![Nearby Breweries](https://user-images.githubusercontent.com/103782984/198139088-55ca1b46-bad0-4dc4-b390-bd2b1f9cb2d0.gif)
 
